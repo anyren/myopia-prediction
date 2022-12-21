@@ -15,11 +15,11 @@ I then ran a t-SNE model with the default learning rate of 200 to reduce the dim
 
 In this step, I used k-means to see if any clusters exist among the patients in the dataset. I started by drawing an "elbow curve" to determine what value of k would be best. The most distinct "elbow" appeared to be at 3, so that is what I used for my k value. 
 
-<img src="elbow_curve.png" width=1000>
+<img src="elbow_curve.png" width=500>
 
 I ran the k-means function on the reduced data and replotted the features from my t-SNE model with the categories determined by the k-means analysis. The resulting plot showed three mostly distinct categories that might be useful for further breaking down the study data.
 
-<img src="k-means_clusters.png" width=1000>
+<img src="k-means_clusters.png" width=500>
 
 ### Part 4: Make a Recommendation
 
